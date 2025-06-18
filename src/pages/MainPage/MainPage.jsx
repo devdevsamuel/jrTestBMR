@@ -22,7 +22,6 @@ function MainPage() {
   const headingRef = useRef(null);
 
   useEffect(() => {
-    headingRef.current?.focus();
   }, []);
 
   return (
