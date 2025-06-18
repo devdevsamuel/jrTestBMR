@@ -3,12 +3,12 @@ import { useRef } from "react";
 import useEscapeAndFocus from '../../hooks/useEscapeAndFocus';
 
 const UserModal = ({ user, onClose }) => {
-  if (!user || typeof user !== 'object') return null;
-
   const contentRef = useRef(null);
   const closeButtonRef = useRef(null);
 
   useEscapeAndFocus(onClose, contentRef);
+
+  if (!user || typeof user !== 'object') return null;
 
   return (
     <div
@@ -72,6 +72,7 @@ const UserModal = ({ user, onClose }) => {
   );
 };
 
+// PropTypes para validar las props del componente
 UserModal.propTypes = {
   user: PropTypes.shape({
     id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
