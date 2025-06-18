@@ -20,26 +20,23 @@ Opté por React.js en lugar de Vue.js, ya que durante la entrevista y en un emai
 
 Use ReactJs + Vite + react para acelerar la creacion del entorno de desarrollo, empaquetado, estructura mínima y DX.
 
-ReactRouter para crear la SPA, usa react-router-dom para manejar las rutas sin recargar la página, y tiene una estructura clara con un contexto de carga global LoaderContext, un layout global y una página principal.
+ReactRouter para crear la SPA, usa react-router-dom para manejar las rutas sin recargar la página, 
 
-Tailwind por su prototipado rapido y al ser una implementacion pequeña tener claridad de los estilos de cada contenedor y evitar la sobre-modularizacion de archivos de css para estilos sencillos que debian ser responsivos y accesibles, tambien fue util en el desarrollo de la logica del modal y su animacion de css.
 
-Adicionalmente agregue funciones de accesibilidad (a11y) para un SWP, la app es accesible para lectores de pantalla y navegación por teclado con el tabulador y uso de la funcionalidad principal asi como para describir por medio de un asistente de voz la informacion del usuario del modal. Utilice roles, etiquetas ARIA y un control de enfoque para el entrypoint del voice reader antes de inciar con el input de busqueda.
+
+Tailwind por su prototipado rapido y al ser una implementacion pequeña tener claridad de los estilos de cada contenedor y evitar la sobre-modularizacion de archivos de css para componentes sencillos que debian ser responsivos y accesibles, tambien fue util en el desarrollo de la logica del modal y su animacion de CSS.
+
+Adicionalmente agregue funciones de accesibilidad (a11y) para un mvp de producto de software, la app es accesible para lectores de pantalla y navegación por teclado con el tabulador para el acceso de la funcionalidad principal asi como para describir por medio del asistente la informacion del usuario del modal; Utilice roles, etiquetas ARIA y un control de enfoque para el entrypoint del voice reader antes de inciar con el input de busqueda.
 
 ## Entrega 
-Indicador de carga simulado mientras se obtiene la informacion al abrir el modal y al cargar la informacion de los usuarios
-Animacion en la aparicion del modal
-Separacion de servicios, en userService.js para el fetch
-deploy en GithubPage
+Indicador de carga simulado mientras se obtiene la informacion al abrir el modal y al cargar la informacion de los usuarios, Animacion en la aparicion del modal, Separacion de servicios; en userService.js para el fetch, contiene una estructura clara con un contexto de carga global LoaderContext, un layout global y una página principal y otra con el video de la prueba de a11 finalmente el despliegue y el build estan automatizado en Netlify.
 
-Link de captura del voice over y capturas :) <3 
-La ruta para visualizar la demostracion de la accesibilidad de la app esta en la ruta:
+### Link de produccion de la app: 
+#### https://jrtestbmr.netlify.app/
 
-root
-### /
-ruta demostracion a11
-### /a11Demo
+### Link de la ruta de la app con el video capturando la pantalla usando el voice reader 
+#### https://jrtestbmr.netlify.app/a11Demo
 
-![Texto alternativo](https://firebasestorage.googleapis.com/v0/b/portfolio-bedf9.firebasestorage.app/o/projects_assets%2FWhatsApp%20Image%202025-06-18%20at%2000.42.32.jpeg?alt=media&token=ec53517e-83f6-44bb-8ed2-499e1f20a78d)
+![screenshot app desplegada](https://firebasestorage.googleapis.com/v0/b/portfolio-bedf9.firebasestorage.app/o/projects_assets%2FWhatsApp%20Image%202025-06-18%20at%2000.42.32.jpeg?alt=media&token=ec53517e-83f6-44bb-8ed2-499e1f20a78d)
 
-
+## :) <3 

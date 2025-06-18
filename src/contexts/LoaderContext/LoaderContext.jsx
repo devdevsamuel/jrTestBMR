@@ -1,6 +1,6 @@
 // Importamos las dependencias necesarias de React y hooks.
 import { createContext, useContext, useState } from 'react';
-import GlobalLoader from '../../Components/GlobalLoader/GlobalLoader';
+import GlobalLoader from '../../components/GlobalLoader/GlobalLoader';
 
 const LoaderContext = createContext();
 
