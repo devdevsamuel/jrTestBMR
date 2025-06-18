@@ -33,4 +33,13 @@ Separacion de servicios, en userService.js para el fetch
 deploy en GithubPage
 
 Link de captura del voice over y capturas :) <3 
+La ruta para visualizar la demostracion de la accesibilidad de la app esta en la ruta:
+
+root
+### /
+ruta demostracion a11
+### /a11Demo
+
+![Texto alternativo](https://firebasestorage.googleapis.com/v0/b/portfolio-bedf9.firebasestorage.app/o/projects_assets%2FWhatsApp%20Image%202025-06-18%20at%2000.42.32.jpeg?alt=media&token=ec53517e-83f6-44bb-8ed2-499e1f20a78d)
+
 

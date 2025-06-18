@@ -50,13 +50,13 @@ function MainPage() {
             id="main-title"
             ref={headingRef}
             tabIndex="-1"
-            className="text-3xl font-bold flex flex-col"
+            className="text-3xl font-bold flex flex-col mt-3"
           >
             Directorio de Usuarios
             <span className="text-sm text-gray-500">de Samuel Osorio</span>
 
           </h1>
-          <img src={logoBmr} alt="Logo de Samuel Osorio" />
+          <img src={logoBmr} alt="Logo de BMR" />
         </section>
 
         <section aria-label="Buscador de usuarios" className="mb-4">
