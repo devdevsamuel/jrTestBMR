@@ -53,7 +53,7 @@ function MainPage() {
             className="text-3xl font-bold flex flex-col mt-3"
           >
             Directorio de Usuarios
-            <span className="text-sm text-gray-500">de Samuel Osorio</span>
+            <span className="text-sm text-gray-500">por Samuel Osorio</span>
 
           </h1>
           <img src={logoBmr} alt="Logo de BMR" />
