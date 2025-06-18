@@ -13,10 +13,12 @@ const SearchBar = ({ value, onChange }) => (
     />
   </div>
 );
+
 // PropTypes para validar las props del componente
 SearchBar.propTypes = {
   value: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired
 };
+
 export default SearchBar;
 
