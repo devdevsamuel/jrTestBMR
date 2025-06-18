@@ -8,9 +8,13 @@
 ## Pasos de instalación
 ```bash
 mkdir directorioPruebaSamuel
+
 git clone https://github.com/devdevsamuel/jrTestBMR.git
+
 cd directorioPruebaSamuel
-npm install 
+
+npm install
+
 npm run dev
 ```
 ---
@@ -29,7 +33,7 @@ Tailwind por su prototipado rapido y al ser una implementacion pequeña tener cl
 Adicionalmente agregue funciones de accesibilidad (a11y) para un mvp de producto de software, la app es accesible para lectores de pantalla y navegación por teclado con el tabulador para el acceso de la funcionalidad principal asi como para describir por medio del asistente la informacion del usuario del modal; Utilice roles, etiquetas ARIA y un control de enfoque para el entrypoint del voice reader antes de inciar con el input de busqueda.
 
 ## Entrega 
-Indicador de carga simulado mientras se obtiene la informacion al abrir el modal y al cargar la informacion de los usuarios, Animacion en la aparicion del modal, Separacion de servicios; en userService.js para el fetch, contiene una estructura clara con un contexto de carga global LoaderContext, un layout global y una página principal y otra con el video de la prueba de a11 finalmente el despliegue, el build y el hosting estan automatizados en Netlify.
+Indicador de carga simulado mientras se obtiene la informacion al abrir el modal y al cargar la informacion de los usuarios, Animacion en la aparicion del modal, Separacion de servicios; en userService.js para el fetch, contiene una estructura clara con un contexto de carga global LoaderContext, un layout global y una página principal y otra con el video de la prueba de a11, todos los componentes estan tipados con prop-types para validar las props de cada componente, finalmente el despliegue, el build y el hosting estan automatizados en Netlify.
 
 ### Link de produccion de la app: 
 #### https://jrtestbmr.netlify.app/
