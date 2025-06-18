@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/jrTestBMR/', // nombre del repositorio importante para GitHub Pages
+  base: '/', 
   build: { // Configuración de la carpeta de salida
-    outDir: 'docs'
+    outDir: 'dist' // 'dist' para que coincida con la configuración de netlify
   },
   plugins: [react()],
 });
