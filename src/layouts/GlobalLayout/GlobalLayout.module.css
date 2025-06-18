@@ -1,0 +1,17 @@
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+
+.mainContent{
+    transition: margin-left 0.3s ease;
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .mainContent {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
