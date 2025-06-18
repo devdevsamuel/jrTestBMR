@@ -1,11 +1,21 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
   base: '/', 
-  build: { // Configuración de la carpeta de salida
-    outDir: 'dist' // 'dist' para que coincida con la configuración de netlify
+  build: {
+    outDir: 'dist', // Carpeta de salida para Netlify
   },
-  plugins: [react()],
+  plugins: [
+    react(),
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'public/_redirects',
+          dest: '.' // Lo copia directamente a la raíz de 'dist'
+        }
+      ]
+    })
+  ]
 });
-
