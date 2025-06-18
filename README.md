@@ -27,25 +27,15 @@ Tailwind por su prototipado rapido y al ser una implementacion pequeña tener cl
 Adicionalmente agregue funciones de accesibilidad (a11y) para un SWP, la app es accesible para lectores de pantalla y navegación por teclado con el tabulador y uso de la funcionalidad principal asi como para describir por medio de un asistente de voz la informacion del usuario del modal. Utilice roles, etiquetas ARIA y un control de enfoque para el entrypoint del voice reader antes de inciar con el input de busqueda.
 
 ## Entrega 
-Indicador de carga simulado mientras se obtiene la informacion al abrir el modal y al cargar la informacion de los usuarios
-Animacion en la aparicion del modal
-Separacion de servicios, en userService.js para el fetch
-deploy en GithubPage
+Indicador de carga simulado mientras se obtiene la informacion al abrir el modal y al cargar la informacion de los usuarios, Animacion en la aparicion del modal, Separacion de servicios; en userService.js para el fetch  y despliegue automatizado en Netlify
 
-Despliegue automatizado con netlify
-Link de la app 
-Link de la ruta de la app con el video capturando la pantalla usando el voice reader 
-
-
-
-La ruta para visualizar la demostracion de la accesibilidad de la app esta en la ruta:
-
-root
+Link de produccion de la app
 ### https://jrtestbmr.netlify.app/
 
-ruta demostracion a11
+Link de la ruta de la app con el video capturando la pantalla usando el voice reader 
 ### https://jrtestbmr.netlify.app/a11Demo
 
-![Texto alternativo](https://firebasestorage.googleapis.com/v0/b/portfolio-bedf9.firebasestorage.app/o/projects_assets%2FWhatsApp%20Image%202025-06-18%20at%2000.42.32.jpeg?alt=media&token=ec53517e-83f6-44bb-8ed2-499e1f20a78d)
+
+![screenshot app desplegada](https://firebasestorage.googleapis.com/v0/b/portfolio-bedf9.firebasestorage.app/o/projects_assets%2FWhatsApp%20Image%202025-06-18%20at%2000.42.32.jpeg?alt=media&token=ec53517e-83f6-44bb-8ed2-499e1f20a78d)
 
 ## :) <3 
